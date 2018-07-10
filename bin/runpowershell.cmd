@@ -1,5 +1,5 @@
 @ECHO OFF
 set SplunkApp=TA-Applocker
 
-powershell.exe -executionPolicy RemoteSigned -command ". '%SPLUNK_HOME%\etc\apps\%SplunkApp%\bin\%1'"
+powershell.exe -command ". '%SPLUNK_HOME%\etc\apps\%SplunkApp%\bin\%1'"
 
